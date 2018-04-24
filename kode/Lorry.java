@@ -8,4 +8,8 @@ public class Lorry extends Car{
       System.out.println("Varer leveret!");
    }
 
+   public void checkLicense(){
+      System.out.println("LKW");
+      super.checkLicense();
+   }
 }

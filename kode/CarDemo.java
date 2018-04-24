@@ -12,6 +12,14 @@ public class CarDemo{
       carlist.add(lkw);
       
       System.out.println(carlist);
+      
+      for (Car c : carlist){
+         c.checkLicense();
+      }
+      
+      
+      ((SportsCar) carlist.get(1)).race();
+      
    }
 
 
