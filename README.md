@@ -10,6 +10,8 @@ Car <- Sportscar
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
 
+Lav `roll` metode, der tilfældigt giver et slag med terningen. Skriv resultatet ud.
+
 ```
 String eyes;
 
