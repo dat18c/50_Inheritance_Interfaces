@@ -10,6 +10,24 @@ Car <- Sportscar
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
 
+```
+String eyes;
+
+Random r = new Random();
+switch (r.nextInt(6)+1) {
+case 1:
+    this.eyes = "1";
+    break;
+case 2:
+    this.eyes = "2";
+    break;
+...
+default:
+    break;
+}
+// this.eyes = Integer.toString(r.nextInt(6)+1);
+
+```
 # Interfaces
 `Implements`
 En anden måde at sikre polymorfi
