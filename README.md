@@ -1,4 +1,4 @@
-# 35_Inheritance_Interfaces
+# 50_Inheritance_Interfaces
 Opsamling på øvelser i ArrayList
 
 ## Inheritance
