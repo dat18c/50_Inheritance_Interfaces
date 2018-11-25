@@ -2,13 +2,16 @@
 Opsamling på øvelser i ArrayList
 
 ## Inheritance
-`Extends`
+`Extends
+Super
+`
 
-Car <- Sportscar
-    <- Lorry
+
 
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
+`LudoTerning extends Terning`
+
 
 Lav `roll` metode, der tilfældigt giver et slag med terningen. Skriv resultatet ud.
 
@@ -30,7 +33,12 @@ default:
 // this.eyes = Integer.toString(r.nextInt(6)+1);
 
 ```
-# Interfaces
+
+Reges p.683 ex 4 (lav først p. 675-676 self-check 8-9).
+
+Reges p. 683-684 ex. 5 - 8.
+
+# Næste gang Interfaces
 `Implements`
 En anden måde at sikre polymorfi
 
