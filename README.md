@@ -5,6 +5,9 @@ Opsamling på øvelser i ArrayList
 `A extends B` definerer at klassen A er subklasse af klassen B
 `super` bruges til at tilgå metoder og attributter i superklassen. Hvis ellers de kan tilgås.
 
+## Opdater Kanban boards
+Opdater Kanban boards. Tag et screenshot til opgave-rapporten.
+
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
 `LudoTerning extends Terning`
