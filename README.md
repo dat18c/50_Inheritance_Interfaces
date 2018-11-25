@@ -2,12 +2,8 @@
 Opsamling på øvelser i ArrayList
 
 ## Inheritance
-`Extends
-
-Super
-`
-
-
+`A extends B` definerer at klassen A er subklasse af klassen B
+`super` bruges til at tilgå metoder og attributter i superklassen. Hvis ellers de kan tilgås.
 
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
@@ -16,6 +12,7 @@ Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
 
 Lav `roll` metode, der tilfældigt giver et slag med terningen. Skriv resultatet ud.
 
+Lidt hints til mulige implementeringer af dele af koden med og uden brug af switch:
 ```
 String eyes;
 
@@ -32,7 +29,6 @@ default:
     break;
 }
 // this.eyes = Integer.toString(r.nextInt(6)+1);
-
 ```
 
 Reges p.683 ex 4 (lav først p. 675-676 self-check 8-9).
