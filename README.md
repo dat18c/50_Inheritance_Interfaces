@@ -3,6 +3,7 @@ Opsamling på øvelser i ArrayList
 
 ## Inheritance
 `Extends
+
 Super
 `
 
