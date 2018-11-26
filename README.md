@@ -11,9 +11,9 @@ Opdater Kanban boards. Tag et screenshot til opgave-rapporten.
 ## Øvelse
 Almindelig terning og ludoterning (3 og 5 erstattet af stjerne og globus)
 `LudoTerning extends Terning`
+Opret ArrayList med terninger. I kan putte både almindelige og Ludoterninger i Array'et.
 
-
-Lav `roll` metode, der tilfældigt giver et slag med terningen. Skriv resultatet ud.
+Lav `roll` metode, der tilfældigt giver et slag med terningen. Skriv resultatet ud vha. toString.
 
 Lidt hints til mulige implementeringer af dele af koden med og uden brug af switch:
 ```
@@ -43,4 +43,5 @@ Reges p. 683-684 ex. 5 - 8.
 En anden måde at sikre polymorfi
 
 ## Øvelse
+Laves næste gang vha. Interfaces:
 Snydeterning, der giver 6, når der slås 1 eller to - både den almindelige terning og ludoterningen
