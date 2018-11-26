@@ -16,16 +16,20 @@ public class RemoveZeros
       list.add(4);
       list.add(0);
       */
+      //arraylist med 0'er
       System.out.println(list);
       int i=0;
+      //traverser arraylist
       while (i<list.size())
       {
-         if (list.get(i)==0)
+         if (list.get(i).intValue()==0)
          {
+            //hvis 0, så fjern. Næste element overtager plads i
             list.remove(i);
          }
          else
          {
+            //hvis forskelligt fra 0, så gå til næste element
             i++;
          }
       }
